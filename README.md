@@ -128,7 +128,7 @@ var app = new Base({isApp: true}, {abc: true});
 app.set('foo', 'bar');
 
 // values defined with the given `config` object will be on the root of the instance
-console.log(app.baz); //=> true
+console.log(app.baz); //=> undefined
 console.log(app.foo); //=> 'bar'
 // or use `.get`
 console.log(app.get('isApp')); //=> true
